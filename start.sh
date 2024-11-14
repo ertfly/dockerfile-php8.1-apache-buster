@@ -5,9 +5,8 @@ cd /root
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 . /root/.bashrc
 nvm install 18
-node -v
 
-cd /app/front
+cd /front
 npm install
 npm run build
 cd /app
